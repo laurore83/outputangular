@@ -1,0 +1,15 @@
+<p>create-onomatopia works!</p>
+<form (ngSubmit)="createOnomatopia()">
+  <fieldset>
+    <label for="onomatopia">ajouter une onomatopé</label>
+    <input
+      id="onomatopia"
+      name="onomatopia"
+      type="text"
+      [(ngModel)]="newOnomatopia"
+    />
+  </fieldset>
+
+  <!-- <button type="reset">Restaurer</button> -->
+  <button type="submit">Sauvegarder</button>
+</form>
